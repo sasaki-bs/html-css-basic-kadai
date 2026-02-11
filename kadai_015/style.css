@@ -1,5 +1,7 @@
 body {
     font-family: "Arial", "Meiryo", sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 
 h1 {
@@ -10,33 +12,23 @@ h1 {
     text-shadow: 1px 1px 2px gray;
 
 }
-.headlineblue{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 1.2em;
-    color:skyblue
+
+.headlineblue {
+    color: skyblue
 }
 
-.headlinepink{
+.headlinepink {
     color: rgb(255, 192, 203);
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 1.2em;
-
 }
-* {
-    font-size: 20px;
-    text-align: center;
+
+#basic > p {
+    font-weight: bold;
 }
 
 .blue {
-    color: skyblue
+    color: skyblue;
 }
 
 .pink {
     color: rgb(255, 192, 203);
-}
-
-#basic p {
- font-weight: bold;
 }
